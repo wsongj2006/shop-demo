@@ -19,8 +19,9 @@ spring:
     show-sql: true
     database-platform: org.hibernate.dialect.MySQLDialect
 ````
-2. service-buyer端口 8868, swagger本地地址： http://localhost:8868/swagger-ui/index.html#/
-3. service-seller端口 8866, swagger本地地址:  http://localhost:8866/swagger-ui/index.html#/
+2. 执行数据库建表语句service-buyer/etc/db.sql
+3. service-buyer端口 8868, swagger本地地址： http://localhost:8868/swagger-ui/index.html#/
+4. service-seller端口 8866, swagger本地地址:  http://localhost:8866/swagger-ui/index.html#/
 
 ## service-buyer
 1. 先创建用户；
