@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: service-seller
+  datasource:
+    url: jdbc:mysql://localhost:3306/shop-demo?serverTimezone=UTC
+    username: shop
+    password: 88888888
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+    database-platform: org.hibernate.dialect.MySQLDialect
+
+server:
+  port: 8866
